@@ -251,6 +251,7 @@ public class MyRestService {
 	        dataIMDB.add(map.get("Actors"));
 	        dataIMDB.add(map.get("Plot"));
 	        dataIMDB.add(map.get("imdbRating"));
+	        dataIMDB.add(map.get("imdbID"));
 		} catch (Exception e) {
 			
 			System.out.println(e.getMessage().toString());
